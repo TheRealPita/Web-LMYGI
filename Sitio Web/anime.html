@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>     
+	<title>One Piece (Anime)</title>
+     <meta charset = "utf-8">
+     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+     <link rel="shortcut icon" href="imágenes/logo.ico" type="imágenes/x-icon">
+     <script type="text/javascript">
+      var k = ["0", " ¡Yo soy Luffy! ¡El hombre que se convertirá en el Rey de los Piratas!", " ¡Entra el gran espadachín! ¡El Cazador de Piratas Roronoa Zoro!", "¡Morgan vs. Luffy! ¿Quién es esa guapa muchacha?", "El pasado de Luffy! Aparece el Pelirrojo Shanks!", "Miedo, al poder misterioso! El Capitán Pirata Buggy El Payaso!", " Situación Desesperada! El Domador de Bestias Mohji VS Luffy!", "Gran Duelo! Zoro el Espadachín VS Cabaji el Acróbata!"];
+      var e = ["0", "https://www3.animeflv.net/ver/one-piece-tv-1", "https://www3.animeflv.net/ver/one-piece-tv-2", "https://www3.animeflv.net/ver/one-piece-tv-3", "https://www3.animeflv.net/ver/one-piece-tv-4", "https://www3.animeflv.net/ver/one-piece-tv-5", "https://www3.animeflv.net/ver/one-piece-tv-6", "https://www3.animeflv.net/ver/one-piece-tv-7"]
+      var d = document.getElementById("web");
+        function nombre(){
+      var d = document.getElementById("web");
+      document.getElementById("nombrecap").innerHTML = k[d.value];
+    }
+    function enlaceweb(){
+      var d = document.getElementById("web");
+      window.open(e[d.value]);
+      }
+      function color(){
+        document.getElementById("web").style="background-color: #5DADE2";
+      }
+    </script>
+</head>
+<body>
+    <header>
+        <ul class="contacto">
+        <li> <a href ="https://www.instagram.com/" class="hvr-grow"> <img src="imágenes/instagram.png" width="20%"> Instagram</a></li>
+        <li> <a href ="https://twitter.com/home" class="hvr-grow"> <img src="imágenes/twitter.png" width="25%"> Twitter</a></li>
+        <li> <a href ="https://web.telegram.org/#/login" class="hvr-grow"> <img src="imágenes/telegram.png" width="20%"> Telegram</a></li>
+    </ul>
+    <p class="imagen">
+     <img src="imágenes/onepiece.png" width="30%" title="Pagina de One Piece hecha por Pedro">
+    </p>
+      <ul class="menú">
+        <li><a href ="index.html" class="hvr-grow">Inicio</a></li>
+        <li><a href ="anime.html" class="hvr-grow">Anime y Peliculas</a></li>
+        <li><a href ="manga.html" class="hvr-grow">Manga</a></li>
+      </ul>
+    </header>
+    <main class="main2">
+    <section class="seccion">
+     <div>
+      <h2>Anime</h2>
+      <p>A día de hoy, One piece tiene en el anime 977 capítulos. Se pueden ver de forma legal y gratis en Crunchyroll Y cada semana sale un nuevo capítulo. Pueden parecer muchos (de hecho lo son) pero es una gran historia. Además, como el manga, la historia se divide en arcos, es decir divisiones en capítulos cuando estos tienen la misma temática (por ejemplo una misma isla es un arco) Una lista con los arcos:</p>
+      <ul>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#East_Blue_Saga">East Blue</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Arabasta_Saga">Arabasta</a></a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Sky_Island_Saga">Skypiea</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Water_7_Saga">Water 7</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Enies_Lobby_Arc">Enies Lobby</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Thriller_Bark_Saga">Thriller Bark</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Summit_War_Saga">Marineford</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Post-War_Arc">Post-guerra</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Fish-Man_Island_Saga">Isla debajo del agua</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Dressrosa_Saga">Dressrosa</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Zou_Arc">Zou</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Whole_Cake_Island_Arc">Whole Cake</a></li>
+        <li><a href="https://onepiece.fandom.com/wiki/Story_Arcs#Wano_Country_Arc">Wano</a></li>
+      </ul> 
+      <h2>Ver capítulos</h2>
+      <p>Aquí podrás elegir que capítulo del anime ver poniendo solo el número del capítulo que quieras ver. Después le das al botón de abajo y ya estaría:</p>
+              <div>
+                Pon un número (por ahora del 1 al 7): <input id="web" onchange="color()"/> <input type="button" onclick="nombre()"/><br/>
+                </br> 
+                Nombre del capítulo: <span id="nombrecap"> </span>
+              </div>
+              <div>
+                Ir al capítulo <input type="button" onclick="enlaceweb()"/><br/>
+               </div>     
+     </div>
+     <div>
+       <h2>Películas</h2>
+       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/S8_YwFLCh4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>Las películas de One Piece se caracterizan por ser películas no canónicas, es decir no siguen el hilo principal de la historia, aunque en la serie se haga alusión a acontecimientos de películas y viceversa. Hay varias películas, la última de ellas es One Piece: Stampede. Aquí os dejo el trailer:</p>
+       <p>Otras películas con enlace para verlas:
+        <ul>
+          <li><a href="https://www3.animeflv.net/anime/one-piece-film-gold">One Piece:Gold</a></li>
+          <li><a href="https://www3.animeflv.net/anime/one-piece-film-z">One Piece Film Z</a></li>
+          <li><a href="https://www3.animeflv.net/anime/one-piece-3d2y-ace-no-shi-wo-koete-luffy-nakama-tono-chikai">3D2Y</a></li>
+        </ul></p>
+    </section>
+  </main>
+
+ <footer>
+      <p>© Copyright 2021</p>
+ </footer>  
+</body>
+</html>
